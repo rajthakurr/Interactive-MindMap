@@ -1,0 +1,170 @@
+{
+  "id": "root",
+  "label": "Vitamins in Human Body",
+  "summary": "Essential micronutrients required for normal metabolic function, growth, and overall health, typically obtained through diet. They are vital for diverse bodily processes, including energy production, immune defense, and cellular repair, playing a crucial role in preventing various diseases and maintaining overall well-being.",
+  "color": "#ADD8E6",
+  "children": [
+    {
+      "id": "dietary-sources",
+      "label": "Dietary Sources",
+      "summary": "Natural food sources where vitamins can be obtained. A balanced diet rich in fruits, vegetables, grains, proteins, and dairy products provides most essential vitamins needed for optimal health.",
+      "color": "#90EE90",
+      "children": [
+        {
+          "id": "fruits-vegetables",
+          "label": "Fruits & Vegetables",
+          "summary": "Rich sources of vitamins C, A, K, and folate. Colorful produce provides diverse micronutrients.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "grains-cereals",
+          "label": "Grains & Cereals",
+          "summary": "Fortified grains provide B vitamins and energy for bodily functions.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "meat-fish",
+          "label": "Meat & Fish",
+          "summary": "Excellent sources of B12, D, and protein for muscle and bone health.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "dairy-products",
+          "label": "Dairy Products",
+          "summary": "Provide calcium, vitamin D, and B vitamins essential for bone health.",
+          "color": "#FFD700"
+        }
+      ]
+    },
+    {
+      "id": "health-impact",
+      "label": "Health Impact & Balance",
+      "summary": "Maintaining adequate vitamin levels is crucial, as both deficiencies (hypovitaminosis) and excesses (hypervitaminosis) can lead to health problems. These imbalances can manifest in a range of symptoms and conditions, significantly affecting long-term health and quality of life if not addressed.",
+      "color": "#90EE90",
+      "children": [
+        {
+          "id": "deficiency",
+          "label": "Deficiency",
+          "summary": "Insufficient vitamin intake leads to various health issues like scurvy, beriberi, and rickets.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "excess",
+          "label": "Excess",
+          "summary": "Excessive vitamin intake, especially fat-soluble vitamins, can cause toxicity and health complications.",
+          "color": "#FFD700"
+        }
+      ]
+    },
+    {
+      "id": "key-roles",
+      "label": "Key Bodily Roles",
+      "summary": "Vitamins perform critical functions throughout the body, supporting immune function, energy metabolism, bone health, and cellular repair.",
+      "color": "#90EE90",
+      "children": [
+        {
+          "id": "bone-health",
+          "label": "Bone Health",
+          "summary": "Vitamins D, K, and minerals work together to maintain strong bones and prevent osteoporosis.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "immune-support",
+          "label": "Immune Support",
+          "summary": "Vitamins C, D, and A strengthen immune response and help fight infections.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "energy-metabolism",
+          "label": "Energy Metabolism",
+          "summary": "B-complex vitamins are essential for converting food into cellular energy.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "cell-repair",
+          "label": "Cell Repair & Growth",
+          "summary": "Vitamins support DNA synthesis and cellular regeneration for optimal growth.",
+          "color": "#FFD700"
+        },
+        {
+          "id": "antioxidant-protection",
+          "label": "Antioxidant Protection",
+          "summary": "Vitamins C and E protect cells from oxidative damage and aging.",
+          "color": "#FFD700"
+        }
+      ]
+    },
+    {
+      "id": "classification",
+      "label": "Vitamin Classification",
+      "summary": "Vitamins are primarily classified based on their solubility in fats or water, which dictates their absorption, storage, and excretion mechanisms in the body. This fundamental distinction influences dietary intake recommendations, potential for toxicity, and how they are utilized by different physiological systems.",
+      "color": "#90EE90",
+      "children": [
+        {
+          "id": "fat-soluble",
+          "label": "Fat-Soluble Vitamins",
+          "summary": "Vitamins A, D, E, K - absorbed with dietary fats, stored in body fat, can accumulate to toxic levels.",
+          "color": "#FFA500",
+          "children": [
+            {
+              "id": "vitamin-a",
+              "label": "Vitamin A",
+              "summary": "Essential for vision, skin health, and immune function. Found in carrots, sweet potatoes, and leafy greens.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-d",
+              "label": "Vitamin D",
+              "summary": "Regulates calcium absorption for bone health. Produced by skin in sunlight, also found in fatty fish.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-e",
+              "label": "Vitamin E",
+              "summary": "Powerful antioxidant protecting cells. Found in nuts, seeds, and vegetable oils.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-k",
+              "label": "Vitamin K",
+              "summary": "Critical for blood clotting and bone metabolism. Abundant in leafy green vegetables.",
+              "color": "#DDA0DD"
+            }
+          ]
+        },
+        {
+          "id": "water-soluble",
+          "label": "Water-Soluble Vitamins",
+          "summary": "B-complex vitamins and Vitamin C - absorbed in water, not stored in body, must be consumed regularly.",
+          "color": "#FFA500",
+          "children": [
+            {
+              "id": "vitamin-c",
+              "label": "Vitamin C",
+              "summary": "Supports immune function, collagen synthesis, and wound healing. Found in citrus fruits and berries.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-b1",
+              "label": "Vitamin B1 (Thiamine)",
+              "summary": "Essential for carbohydrate metabolism and nerve function. Found in grains and meat.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-b2",
+              "label": "Vitamin B2 (Riboflavin)",
+              "summary": "Supports energy production and cell growth. Found in eggs, almonds, and mushrooms.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-b12",
+              "label": "Vitamin B12",
+              "summary": "Critical for red blood cell formation and neurological function. Found in animal products.",
+              "color": "#DDA0DD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

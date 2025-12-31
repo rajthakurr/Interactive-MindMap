@@ -1,0 +1,42 @@
+.mindmap-canvas-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.mindmap-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.node {
+  transition: all 0.2s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.node:hover {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+  stroke-width: 3 !important;
+}
+
+.link {
+  stroke-linecap: round;
+}
+
+.label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  pointer-events: none;
+  user-select: none;
+  word-wrap: break-word;
+}
+
+.expand-indicator {
+  transition: all 0.2s ease;
+}
+
+.expand-indicator:hover {
+  fill: #ffeb3b;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
