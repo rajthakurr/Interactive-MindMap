@@ -70,7 +70,7 @@ Enables smooth zoom and pan interactions on the mindmap canvas.
 * **d3-selection**  
 Used for DOM selection and binding data to SVG elements.
 
-* **React Hooks** (`useState`, `useEffect`, `useRef`)  
+* **React Hooks** (**`useState`, `useEffect`, `useRef`**)  
 For managing state, lifecycle logic, and seamless D3 integration within React.
 
 ---
@@ -99,23 +99,28 @@ Acts as the central controller managing shared state such as:
 ---
 
 ## 🔄 Data Flow (From Data to UI)
+━━━━━━━━━━━━━━━━━━━━━━
 
-1. **Initial Data Structure**
-    The mindmap data is stored as a hierarchical JSON-like structure where each node contains: `id`, `label`, `summary`, `note`, and `children`.
+* **Initial Data Structure**  
+The mindmap data is stored as a hierarchical JSON-like structure where each node contains:  
+`id`, `label`, `summary`, `note`, and `children`.
 
-2. **Hierarchy Processing**
-    The data is converted into a D3 hierarchy using the `d3.hierarchy()` method.
+* **Hierarchy Processing**  
+The data is converted into a D3 hierarchy using the `d3.hierarchy()` method.
 
-3. **Force Simulation**
-    D3’s force simulation calculates $(x, y)$ positions for nodes and links dynamically based on the current state.
+* **Force Simulation**  
+D3’s force simulation dynamically calculates node and link positions  
+$(x, y)$ based on the current graph state.
 
-4. **Rendering**
-    Nodes and links are rendered as SVG elements. React manages the top-level application state while D3 handles the specific layout math and SVG interactions.
+* **Rendering**  
+Nodes and links are rendered as SVG elements.  
+React manages the top-level application state, while D3 handles layout calculations and SVG interactions.
 
-5. **User Interaction**
-    Clicking a node selects it and highlights related elements. The `SidePanel` updates, and users can add/delete nodes or expand/collapse branches, triggering an automatic re-render of the graph.
+* **User Interaction**  
+Clicking a node selects and highlights related elements. The **SidePanel** updates in real time, allowing users to add or delete nodes, expand or collapse branches, and trigger automatic graph re-rendering.
 
 ---
+
 
 ## ✨ Key Features
 
