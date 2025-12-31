@@ -92,9 +92,9 @@ Contains global actions such as zoom controls, expand/collapse, drill-down, and 
 
 * **MindmapApp / App**  
 Acts as the central controller managing shared state such as:
-- Selected node  
-- Collapsed nodes  
-- Mindmap data structure  
+    - Selected node  
+    - Collapsed nodes  
+    - Mindmap data structure  
 
 ---
 
