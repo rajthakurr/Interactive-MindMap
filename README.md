@@ -45,32 +45,32 @@ A dedicated control suite for managing the view, including zoom-to-fit, drill-do
 
 ## 🚀 Technologies Used
 
-* **React (TypeScript)**  
+* **React (TypeScript):**  
 Used for building reusable UI components and managing application state efficiently.
 
-* **Vite**  
+* **Vite:**  
 A fast development and build tool that provides instant hot reloading and optimized production builds.
 
-* **D3.js**  
+* **D3.js:**  
 Used for force-directed graph layout, node positioning, zooming, panning, and interactive SVG rendering.
 
-* **CSS3**  
+* **CSS3:**  
 Custom styling for layout, animations, and responsive UI elements.
 
 ---
 
 ## 📚 Libraries Used & Why
 
-* **d3-force**  
+* **d3-force:**  
 Handles force-directed graph simulations and dynamic node positioning.
 
-* **d3-zoom**  
+* **d3-zoom:**  
 Enables smooth zoom and pan interactions on the mindmap canvas.
 
-* **d3-selection**  
+* **d3-selection:**  
 Used for DOM selection and binding data to SVG elements.
 
-* **React Hooks** (**`useState`, `useEffect`, `useRef`**)  
+* **React Hooks:** (**`useState`, `useEffect`, `useRef`**)  
 For managing state, lifecycle logic, and seamless D3 integration within React.
 
 ---
@@ -81,16 +81,16 @@ The application follows a **component-based architecture**:
 
 ### 🔹 Core Components
 
-* **MindmapCanvas**  
+* **MindmapCanvas:**  
 Renders the interactive mindmap using SVG and D3 force simulations.
 
-* **SidePanel**  
+* **SidePanel:**  
 Displays detailed information (title, summary, notes) of the selected node and provides UI controls to add child nodes.
 
-* **Toolbar**  
+* **Toolbar:**  
 Contains global actions such as zoom controls, expand/collapse, drill-down, and fit-to-view.
 
-* **MindmapApp / App**  
+* **MindmapApp / App:**  
 Acts as the central controller managing shared state such as:
     - Selected node  
     - Collapsed nodes  
@@ -99,9 +99,8 @@ Acts as the central controller managing shared state such as:
 ---
 
 ## 🔄 Data Flow (From Data to UI)
-━━━━━━━━━━━━━━━━━━━━━━
 
-1. **Initial Data Structure**  
+1. **Initial Data Structure:**  
 The mindmap data is stored as a hierarchical JSON-like structure where each node contains:  
     - `id`
     - `label`
@@ -109,25 +108,25 @@ The mindmap data is stored as a hierarchical JSON-like structure where each node
     - `note`
     - `children`
 
-2. **Hierarchy Processing**  
+2. **Hierarchy Processing:**  
 The data is converted into a D3 hierarchy using the **`d3.hierarchy()`** method.
 
-3. **Force Simulation**  
+3. **Force Simulation:**  
 D3’s force simulation dynamically calculates node and link positions  
 $(x, y)$ based on the current graph state.
 
-4. **Rendering**  
+4. **Rendering:**  
     - Nodes and links are rendered as SVG elements.  
     - React manages the top-level application state, while D3 handles layout calculations and SVG interactions.
 
-5. **User Interaction**  
+5. **User Interaction:**  
     - Clicking a node selects it and highlights related elements.
     - The SidePanel updates with detailed documentation.
     - Users can add child nodes directly through the UI.
     - Expand/collapse actions dynamically update the hierarchy.
     - The graph re-renders automatically when data changes.
----
 
+---
 
 ## ✨ Key Features
 
