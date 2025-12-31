@@ -61,16 +61,16 @@ Custom styling for layout, animations, and responsive UI elements.
 
 ## 📚 Libraries Used & Why
 
-* **d3-force**
+* **d3-force**  
 Handles force-directed graph simulations and dynamic node positioning.
 
-* **d3-zoom**
+* **d3-zoom**  
 Enables smooth zoom and pan interactions on the mindmap canvas.
 
-* **d3-selection**
+* **d3-selection**  
 Used for DOM selection and binding data to SVG elements.
 
-* **React Hooks (`useState`, `useEffect`, `useRef`)**
+* **React Hooks** (`useState`, `useEffect`, `useRef`)  
 For managing state, lifecycle logic, and seamless D3 integration within React.
 
 ---
@@ -81,20 +81,20 @@ The application follows a **component-based architecture**:
 
 ### 🔹 Core Components
 
-* **MindmapCanvas**
-    Renders the interactive mindmap using SVG and D3 force simulations.
+* **MindmapCanvas**  
+Renders the interactive mindmap using SVG and D3 force simulations.
 
-* **SidePanel**
-    Displays detailed information (title, summary, notes) of the selected node and provides UI controls to add child nodes.
+* **SidePanel**  
+Displays detailed information (title, summary, notes) of the selected node and provides UI controls to add child nodes.
 
-* **Toolbar**
-    Contains global actions such as zoom controls, expand/collapse, drill-down, and fit-to-view.
+* **Toolbar**  
+Contains global actions such as zoom controls, expand/collapse, drill-down, and fit-to-view.
 
-* **MindmapApp / App**
-    Acts as the central controller managing shared state such as:
-    * Selected node
-    * Collapsed nodes
-    * Mindmap data structure
+* **MindmapApp / App**  
+Acts as the central controller managing shared state such as:
+- Selected node  
+- Collapsed nodes  
+- Mindmap data structure  
 
 ---
 
