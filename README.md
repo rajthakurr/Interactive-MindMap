@@ -101,24 +101,27 @@ Acts as the central controller managing shared state such as:
 ## 🔄 Data Flow (From Data to UI)
 ━━━━━━━━━━━━━━━━━━━━━━
 
-* **Initial Data Structure**  
+1. **Initial Data Structure**  
 The mindmap data is stored as a hierarchical JSON-like structure where each node contains:  
-`id`, `label`, `summary`, `note`, and `children`.
+    - `id`, `label`, `summary`, `note`, and `children`.
 
-* **Hierarchy Processing**  
-The data is converted into a D3 hierarchy using the `d3.hierarchy()` method.
+2. **Hierarchy Processing**  
+The data is converted into a D3 hierarchy using the **`d3.hierarchy()`** method.
 
-* **Force Simulation**  
+3. **Force Simulation**  
 D3’s force simulation dynamically calculates node and link positions  
 $(x, y)$ based on the current graph state.
 
-* **Rendering**  
-Nodes and links are rendered as SVG elements.  
-React manages the top-level application state, while D3 handles layout calculations and SVG interactions.
+4. **Rendering**  
+    - Nodes and links are rendered as SVG elements.  
+    - React manages the top-level application state, while D3 handles layout calculations and SVG interactions.
 
-* **User Interaction**  
-Clicking a node selects and highlights related elements. The **SidePanel** updates in real time, allowing users to add or delete nodes, expand or collapse branches, and trigger automatic graph re-rendering.
-
+5. **User Interaction**  
+    - Clicking a node selects it and highlights related elements.
+    - The SidePanel updates with detailed documentation.
+    - Users can add child nodes directly through the UI.
+    - Expand/collapse actions dynamically update the hierarchy.
+    - The graph re-renders automatically when data changes.
 ---
 
 
