@@ -44,20 +44,19 @@ A dedicated control suite for managing the view, including zoom-to-fit, drill-do
 ---
 
 ## 🚀 Technologies Used
+━━━━━━━━━━━━━━━━━━━━━━
 
----
+🔹 **React (TypeScript)**  
+Used for building reusable UI components and managing application state efficiently.
 
-* **React (TypeScript)**
-  Used for building reusable UI components and managing application state efficiently.
+🔹 **Vite**  
+A fast development and build tool that provides instant hot reloading and optimized production builds.
 
-* **Vite**
-  A fast development and build tool that provides instant hot reloading and optimized production builds.
+🔹 **D3.js**  
+Used for force-directed graph layout, node positioning, zooming, panning, and interactive SVG rendering.
 
-* **D3.js**
-  Used for force-directed graph layout, node positioning, zooming, panning, and interactive SVG rendering.
-
-* **CSS3**
-  Custom styling for layout, animations, and responsive UI elements.
+🔹 **CSS3**  
+Custom styling for layout, animations, and responsive UI elements.
 
 ---
 
