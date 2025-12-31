@@ -12,7 +12,9 @@ This project demonstrates how complex structured information (such as educationa
 The primary interface featuring a force-directed graph where nodes represent data points. Users can pan and zoom to explore the hierarchy.
 
 **Main Interface: Expand All + Fit View**
-![Main Interface](https://github.com/user-attachments/assets/YOUR_EXPAND_ALL_FIT_VIEW_LINK)
+![Main Interface]
+<img width="1918" height="1017" alt="Expand_All + Fit View" src="https://github.com/user-attachments/assets/3a7fa9a5-1290-4b35-9b0e-4e960c0eeed7" />
+
 
 ---
 
@@ -20,10 +22,12 @@ The primary interface featuring a force-directed graph where nodes represent dat
 When a node is selected, this panel displays detailed information including titles, summaries, and notes, providing deep context for the visual data.
 
 **Adding New Child Node to the Existing One:**
-![Adding Node](https://github.com/user-attachments/assets/YOUR_ADDING_NODE_LINK)
+![Adding Node]<img width="1918" height="1022" alt="Adding New Child Node to the Existing one" src="https://github.com/user-attachments/assets/70433678-e05c-4f8c-8a9b-eb4361b733f7" />
+
 
 **Deleting Existing Node:**
-![Deleting Node](https://github.com/user-attachments/assets/YOUR_DELETE_NODE_LINK)
+![Deleting Node]<img width="1919" height="1020" alt="Delete Existing Node" src="https://github.com/user-attachments/assets/0ef48fcd-95a9-4a06-9b9d-a6b408a7f49d" />
+
 
 ---
 
@@ -31,10 +35,12 @@ When a node is selected, this panel displays detailed information including titl
 A dedicated control suite for managing the view, including zoom-to-fit, drill-down capabilities, and the interface to dynamically add new child nodes.
 
 **Collapse All:**
-![Collapse All](https://github.com/user-attachments/assets/YOUR_COLLAPSE_ALL_LINK)
+![Collapse All]<img width="1918" height="1020" alt="Collapse_All" src="https://github.com/user-attachments/assets/2d383b6f-19e3-4e60-8176-5299da4417ae" />
+
 
 **Expand All + Fit View:**
-![Expand Fit View](https://github.com/user-attachments/assets/YOUR_EXPAND_FIT_VIEW_CONTROL_LINK)
+![Expand Fit View]<img width="1918" height="1017" alt="Expand_All + Fit View" src="https://github.com/user-attachments/assets/f7674388-5380-4475-a867-85e814d0e205" />
+
 
 ---
 
