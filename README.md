@@ -103,7 +103,11 @@ Acts as the central controller managing shared state such as:
 
 1. **Initial Data Structure**  
 The mindmap data is stored as a hierarchical JSON-like structure where each node contains:  
-    - `id`, `label`, `summary`, `note`, and `children`.
+    - `id`
+    - `label`
+    - `summary`
+    - `note`
+    - `children`
 
 2. **Hierarchy Processing**  
 The data is converted into a D3 hierarchy using the **`d3.hierarchy()`** method.
@@ -144,9 +148,3 @@ To get this project running on your local machine, follow these steps:
    ```bash
    npm install
    npm run dev
-
-
-
-
-
-
