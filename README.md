@@ -45,8 +45,6 @@ A dedicated control suite for managing the view, including zoom-to-fit, drill-do
 
 ## 🚀 Technologies Used
 
----
-
 * **React (TypeScript)**
     Used for building reusable UI components and managing application state efficiently.
 
@@ -63,8 +61,6 @@ A dedicated control suite for managing the view, including zoom-to-fit, drill-do
 
 ## 📚 Libraries Used & Why
 
----
-
 * **d3-force**
     Handles force-directed graph simulations and dynamic node positioning.
 
@@ -80,13 +76,9 @@ A dedicated control suite for managing the view, including zoom-to-fit, drill-do
 
 ## 🧠 Overall Architecture & Approach
 
----
-
 The application follows a **component-based architecture**:
 
 ### 🔹 Core Components
-
----
 
 * **MindmapCanvas**
     Renders the interactive mindmap using SVG and D3 force simulations.
@@ -105,15 +97,7 @@ The application follows a **component-based architecture**:
 
 ---
 
-> This separation of concerns ensures **scalability**, **maintainability**, and **clean code organization**.
-
----
-
 ## 🔄 Data Flow (From Data to UI)
-
----
-
-
 
 1. **Initial Data Structure**
     The mindmap data is stored as a hierarchical JSON-like structure where each node contains: `id`, `label`, `summary`, `note`, and `children`.
