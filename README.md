@@ -62,16 +62,17 @@ Custom styling for layout, animations, and responsive UI elements.
 ## 📚 Libraries Used & Why
 
 * **d3-force**
-    Handles force-directed graph simulations and dynamic node positioning.
+Handles force-directed graph simulations and dynamic node positioning.
 
 * **d3-zoom**
-    Enables smooth zoom and pan interactions on the mindmap canvas.
+Enables smooth zoom and pan interactions on the mindmap canvas.
 
 * **d3-selection**
-    Used for DOM selection and binding data to SVG elements.
+Used for DOM selection and binding data to SVG elements.
 
 * **React Hooks (`useState`, `useEffect`, `useRef`)**
-    For managing state, lifecycle logic, and seamless D3 integration within React.
+For managing state, lifecycle logic, and seamless D3 integration within React.
+
 ---
 
 ## 🧠 Overall Architecture & Approach
